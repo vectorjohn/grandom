@@ -1,0 +1,27 @@
+body {
+    width: 300px;
+}
+
+input[type=number] {
+    width: 4em;
+    font-weight: bold;
+}
+
+label {
+    margin-left: 12px;
+}
+
+.output {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.output .lastitem {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.output .lastitem .ui-state-highlight {
+    padding: 4px;
+    display: inline-block;
+}
